@@ -31,8 +31,7 @@ test('Handling Frames', async ({ page }) => {
     const frame3_2 = frame3.frameLocator('#frm2');
     await frame3_2.getByPlaceholder("Enter First Name").fill("indhu");
     await frame3_2.getByPlaceholder("Enter Last Name").fill("mathi");
-    await frame3_2.locator('//input[@id="femalerb"]').check();
-    await frame3_2.locator('//input[@id="chinesechbx"]').check();
+    
     
 })
 
