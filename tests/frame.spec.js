@@ -32,7 +32,7 @@ test('Handling Frames', async ({ page }) => {
     await frame3_2.getByPlaceholder("Enter First Name").fill("indhu");
     await frame3_2.getByPlaceholder("Enter Last Name").fill("mathi");
      await frame2.locator('//input[@id="chinesechbx"]').check();
-    await frame2.getByPlaceholder("Enter Email").fill("mousy.indhuvy23@gmail.com");
+    await frame2.getByPlaceholder("Enter Email").fill("voyager.indhuvy23@gmail.com");
     
 })
 
